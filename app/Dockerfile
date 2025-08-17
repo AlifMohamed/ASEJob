@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 
 WORKDIR /app
-COPY app/ /app/
+COPY . .
 
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]
