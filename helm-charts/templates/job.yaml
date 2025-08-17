@@ -8,5 +8,5 @@ spec:
       restartPolicy: Never
       containers:
       - name: python-job
-        image: python-job:latest
+        image: python-job:v2
         imagePullPolicy: IfNotPresent
