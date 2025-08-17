@@ -8,5 +8,5 @@ spec:
       restartPolicy: Never
       containers:
       - name: python-job-{{ .Values.job.id }}
-        image: python-job:v2
+        image: python-job:v3
         imagePullPolicy: IfNotPresent
