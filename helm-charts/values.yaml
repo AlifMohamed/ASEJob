@@ -1,0 +1,3 @@
+image:
+  repository: localhost:5000/argo-demo
+  tag: latest
