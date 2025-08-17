@@ -1,12 +1,12 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: {{ .Release.Name }}-job
+  name: {{ .Release.Name }}-job-{{ .Values.job.id }}
 spec:
   template:
     spec:
       restartPolicy: Never
       containers:
-      - name: python-job-{{ values.job.id }}
+      - name: python-job-{{ .Values.job.id }}
         image: python-job:v2
         imagePullPolicy: IfNotPresent
