@@ -1,5 +1,5 @@
 image:
   repository: 
-  tag: v2
+  tag: v5
 job:
-  id: 3
+  id: 5

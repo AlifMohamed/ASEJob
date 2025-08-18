@@ -4,7 +4,7 @@ clusters:
     certificate-authority: /Users/alifs_mac/.minikube/ca.crt
     extensions:
     - extension:
-        last-update: Sun, 17 Aug 2025 14:23:15 IST
+        last-update: Mon, 18 Aug 2025 12:40:15 IST
         provider: minikube.sigs.k8s.io
         version: v1.35.0
       name: cluster_info
@@ -15,7 +15,7 @@ contexts:
     cluster: minikube
     extensions:
     - extension:
-        last-update: Sun, 17 Aug 2025 14:23:15 IST
+        last-update: Mon, 18 Aug 2025 12:40:15 IST
         provider: minikube.sigs.k8s.io
         version: v1.35.0
       name: context_info
